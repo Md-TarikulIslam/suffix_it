@@ -11,6 +11,8 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
+import { Link } from 'react-router-dom'
+
 
 const products = [
   { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
@@ -32,9 +34,9 @@ export default function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white cover-pic">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-        <div className="flex lg:flex-1">
+    <header className="bg-white  sticky top-0">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between  p-6 lg:px-8" aria-label="Global">
+        <div className="flex lg:flex-1  ">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <img className="h-12 w-auto" src="https://suffixit.com/static/media/Suffix-Logo.73142c9b.png" alt="" />
@@ -53,17 +55,13 @@ export default function NavBar() {
         <Popover.Group className="hidden lg:flex lg:gap-x-12 ">
      
 
-        <a href="#" className="text-base font-semibold leading-6 text-gray-900 ">
-            Home
-          </a>
-        <a href="#" className="text-base font-semibold leading-6 text-gray-900">
-            About
-          </a>
+      <Link to='/' className="text-base font-semibold leading-6 text-gray-900">Home</Link>
+          <Link to='/about' className="text-base font-semibold leading-6 text-gray-900">About</Link>
           <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1 text-base font-semibold leading-6 text-gray-900">
+          <Link to='/products'> <Popover.Button className="flex items-center gap-x-1 text-base font-semibold leading-6 text-gray-900">
               Product
               <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
-            </Popover.Button>
+            </Popover.Button></Link> 
 
             <Transition
               as={Fragment}
@@ -262,6 +260,9 @@ export default function NavBar() {
           </div>
         </Dialog.Panel>
       </Dialog>
+
     </header>
+
+  
   )
 }

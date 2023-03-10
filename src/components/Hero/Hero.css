@@ -1,0 +1,46 @@
+.btn{
+    padding: 10px 35px;
+    background-color: #0d6efd;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 11px 18px -8px #0d6efd;
+}
+
+.banner-img{
+    width: 576px;
+
+}
+
+.bubble-1{
+    background-color: #0d6efd;
+    padding: 70px 80px;
+    border-radius: 50%;
+    position: relative;
+    right: 150px;
+    bottom: 330px;
+
+    
+}
+.bubble-2{
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 160px;
+    bottom: 550px;
+   
+}
+
+.dot-down{
+    position: relative;
+    bottom: 110px;
+    left: 70px;
+    z-index: -1;
+}
+
+.dot-up{
+    position: relative;
+    bottom: 548px;
+    left: 458px;
+    z-index: -1;
+}
