@@ -22,7 +22,7 @@ const Company = () => {
       </div>
 
       <div className="grid-style">
-        <div data-aos="fade-right" className="card">
+        <div data-aos="fade-up" className="card">
           <img
             className="company-img"
             src="https://suffixit.com/static/media/team.2ef9cf98.svg"
@@ -32,7 +32,7 @@ const Company = () => {
             Team Of Highly Experienced Professionals
           </p>
         </div>
-        <div data-aos="zoom-in-down" className="card">
+        <div data-aos="fade-up" className="card">
           <img
             className="company-img"
             src="https://suffixit.com/static/media/software.0c032998.svg"
@@ -42,7 +42,7 @@ const Company = () => {
             Working In Software Industry Since 2017
           </p>
         </div>
-        <div data-aos="fade-left" className="card">
+        <div data-aos="fade-up" className="card">
           <img
             className="company-img"
             src="https://suffixit.com/static/media/web.88ae012d.svg"

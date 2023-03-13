@@ -31,7 +31,7 @@ const Hero = () => {
             </div>
           </div>
           <div data-aos="fade-left">
-            <img
+            <img 
               className="banner-img"
               src="https://suffixit.com/static/media/banner_image.a079af09.png"
               alt=""

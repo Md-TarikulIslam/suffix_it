@@ -70,14 +70,13 @@ export default function NavBar() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1  ">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+          <Link to='/' className="-m-1.5 p-1.5"><span className="sr-only">Your Company</span>
             <img
               className="h-12 w-auto"
               src="https://suffixit.com/static/media/Suffix-Logo.73142c9b.png"
               alt=""
             />
-          </a>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -259,14 +258,12 @@ export default function NavBar() {
           className="fixed inset-y-0 left-0 z-10 d-width overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
         >
           <div className="flex items-center justify-between ">
-            <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+            <Link to='/' className="-m-1.5 p-1.5"><span className="sr-only">Your Company</span>
               <img
                 className="h-12 w-auto "
                 src="https://suffixit.com/static/media/Suffix-Logo.73142c9b.png"
                 alt=""
-              />
-            </a>
+              /></Link>
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-gray-700"
@@ -288,18 +285,20 @@ export default function NavBar() {
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
-                      <a
-                        href="#"
+                      {/* Toggle button navigation */}
+
+                      <Link
+                        to="/"
                         className="-mx-0 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                       >
                         Home
-                      </a>
-                      <a
-                        href="#"
+                      </Link>
+                      <Link
+                        to="/about"
                         className="-mx-0 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                       >
                         About
-                      </a>
+                      </Link>
                       <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
                         Product
                         <ChevronDownIcon
