@@ -50,29 +50,29 @@ const Work = () => {
             <div>
               <div className="flex-6">
                 <FontAwesomeIcon className="icon-color" icon={faCheckCircle} />
-                <span className="span-space">24/7 support service</span>
+                <span className="span-space text-size">24/7 support service</span>
               </div>
               <div className="flex-6">
                 <FontAwesomeIcon className="icon-color" icon={faCheckCircle} />
-                <span className="span-space">On-time Delivery</span>
+                <span className="span-space text-size">On-time Delivery</span>
               </div>
               <div className="flex-6">
                 <FontAwesomeIcon className="icon-color" icon={faCheckCircle} />
-                <span className="span-space">Within Budget</span>
+                <span className="span-space text-size">Within Budget</span>
               </div>
             </div>
             <div>
               <div className="flex-6">
                 <FontAwesomeIcon className="icon-color" icon={faCheckCircle} />
-                <span>Creating ideas with passion</span>
+                <span className="text-size">Creating ideas with passion</span>
               </div>
               <div className="flex-6">
                 <FontAwesomeIcon className="icon-color" icon={faCheckCircle} />
-                <span>Assure best quality</span>
+                <span className="text-size">Assure best quality</span>
               </div>
               <div className="flex-6">
                 <FontAwesomeIcon className="icon-color" icon={faCheckCircle} />
-                <span>Solution for revolution</span>
+                <span  className="text-size">Solution for revolution</span>
               </div>
             </div>
           </div>

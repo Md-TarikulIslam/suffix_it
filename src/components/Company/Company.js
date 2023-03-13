@@ -1,4 +1,5 @@
 import React from "react";
+import Management from "../Management/Management";
 import "./Company.css";
 
 const Company = () => {
@@ -53,6 +54,7 @@ const Company = () => {
           </p>
         </div>
       </div>
+      <Management></Management>
     </div>
   );
 };

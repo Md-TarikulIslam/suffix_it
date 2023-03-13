@@ -24,6 +24,7 @@
 
 .consist{
     text-align: left;
+    opacity: 70%;
 }
 .flex-3{
     display: flex;
@@ -106,6 +107,14 @@
         position: relative;
         left: 150px;
     }
+    .work-text{
+        width: 500px;
+    }
+    .consist{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
     .learn-btn{
         right: 120px;
     }
@@ -119,6 +128,15 @@
     }
     .flex-4{
         margin-bottom: 20px;
+    }
+    .focus-text{
+        font-size: 30px;
+    }
+    .icon-color{
+        font-size: 30px;
+    }
+    .text-size{
+        font-size: 30px;
     }
     .flex-5{
         flex-direction: column;
@@ -135,6 +153,6 @@
    .learn-btn{
     font-size: 30px;
     margin-bottom: 50px;
-    right: 45px;
+    right: 105px;
    }
 }
