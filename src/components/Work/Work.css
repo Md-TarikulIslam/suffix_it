@@ -114,12 +114,9 @@
         margin-top: 20px;
         font-size: 30px;
     }
-
-    .learn-btn{
-        right: 120px;
-    }
     .arrow-icon{
-        right: 80px;
+       
+        right: 137px;
         font-size: 25px;
     }
     .flex-3{
@@ -151,8 +148,9 @@
     margin-right: 0;
    }
    .learn-btn{
+    margin-top: 50px;
+    margin-bottom: 150px;
     font-size: 30px;
-    margin-bottom: 50px;
     right: 105px;
    }
 }

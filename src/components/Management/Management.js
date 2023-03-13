@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import "./Management.css";
+import CallCenter from "../CallCenter/CallCenter";
 
 const Management = () => {
   return (
@@ -83,6 +84,7 @@ const Management = () => {
           />
         </div>
       </div>
+      <CallCenter></CallCenter>
     </div>
   );
 };
