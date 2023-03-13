@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import "./Work.css";
+import Company from "../Company/Company";
 
 const Work = () => {
   return (
@@ -33,7 +34,7 @@ const Work = () => {
                 src="https://suffixit.com/static/media/pie-chart.3c8a2401.png"
                 alt=""
               />
-              <span className="focus-text">Client Focused</span>
+              <span className="focus-text ">Client Focused</span>
             </div>
             <div className="flex-4">
               <img
@@ -41,7 +42,7 @@ const Work = () => {
                 src="https://suffixit.com/static/media/team.461ec09b.png"
                 alt=""
               />
-              <span className="focus-text">Next Gen Technology Provider</span>
+              <span className="focus-text tech">Next Gen Technology Provider</span>
             </div>
             <div></div>
           </div>
@@ -81,6 +82,7 @@ const Work = () => {
           </div>
         </div>
       </div>
+      <Company></Company>
     </div>
   );
 };

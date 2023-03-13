@@ -110,7 +110,8 @@
         right: 120px;
     }
     .arrow-icon{
-        right: 150px;
+        right: 80px;
+        font-size: 25px;
     }
     .flex-3{
         flex-direction: column;
@@ -128,4 +129,12 @@
     .break{
         display: none;
     }
+   .tech{
+    margin-right: 0;
+   }
+   .learn-btn{
+    font-size: 30px;
+    margin-bottom: 50px;
+    right: 45px;
+   }
 }

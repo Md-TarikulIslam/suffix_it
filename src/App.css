@@ -8,6 +8,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
+
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -35,4 +36,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+@media only screen and (max-width:480px) {
+  .App{
+    width: auto;
+  }
+  
 }
