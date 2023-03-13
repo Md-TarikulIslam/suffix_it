@@ -114,11 +114,18 @@
     }
     .flex-3{
         flex-direction: column;
+        
+    }
+    .flex-4{
+        margin-bottom: 20px;
     }
     .flex-5{
         flex-direction: column;
     }
     .work-img{
         max-width: 600px; 
+    }
+    .break{
+        display: none;
     }
 }

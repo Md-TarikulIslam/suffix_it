@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/About/About';
 import Hero from './components/Hero/Hero';
 import Main from './components/layout/Main';
+import Work from './components/Work/Work';
 
 
 function App() {
@@ -16,6 +17,10 @@ function App() {
           path:'/',
           element:<Hero></Hero>
         },
+        // {
+        //   path:'/',
+        //   element:<Work></Work>
+        // },
         {
           path:'/about',
           element:<About></About>

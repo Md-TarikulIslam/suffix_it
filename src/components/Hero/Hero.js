@@ -5,8 +5,9 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <div>
-      <div className="cover-pic">
-        <div className="flex justify-evenly items-center reverse">
+    <div>
+      <div>
+        <div className="flex justify-evenly items-center reverse cover-pic">
           <div className="pl-8 text-start">
             <h1
               data-aos="fade-up"
@@ -50,9 +51,13 @@ const Hero = () => {
               <span className="bubble-2"></span>
             </div>
           </div>
+          
         </div>
+       
       </div>
-      <Work></Work>
+    
+    </div>
+    <Work></Work>
     </div>
   );
 };

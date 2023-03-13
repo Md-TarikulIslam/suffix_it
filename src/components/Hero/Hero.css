@@ -1,7 +1,7 @@
 .cover-pic{
     background: url(../../../public/images/1.png);
-
-}
+  
+  }
 .care-color{
     color: #071c4d;
 }
@@ -60,35 +60,6 @@
     padding: 5px;
 }
 
-@media only  screen and (max-width:480px) {
-    .reverse{
-        flex-direction: column-reverse;
-        position: relative;
-        margin-top: 30px;
- 
-    }
- .banner-img{
-    margin-top: 50px;
- }
-    .bubble-2{
-        bottom: 400px;
-        left: 100px;
-        padding: 40px 50px;
-    }
-    .dot-up{
-        bottom: 300px;
-        left: 300px;
-    }
-    .dot-down{
-        bottom: 150px;
-        left: 50px;
-    }
-    .cover-pic{
-        width: 672px;
-    }
-}
-
-
 
 .circle {
     position: relative;
@@ -122,3 +93,61 @@
       opacity: 0;
     }
   }
+
+
+
+
+@media only  screen and (max-width:480px) {
+    .reverse{
+        flex-direction: column-reverse;
+        position: relative;
+        margin-top: 30px;
+ 
+    }
+ .banner-img{
+    margin-top: 50px;
+ }
+ .bubble-1{
+    padding: 80px 90px;
+    bottom: 500px;
+    right: 170px;
+ }
+    .bubble-2{
+        bottom: 600px;
+        left: 170px;
+        padding: 60px 70px;
+    }
+    .dot-up{
+        bottom: 480px;
+        left: 440px;
+        width: 150px;
+    }
+    .dot-down{
+        bottom: 240px;
+        left: 50px;
+        width: 150px;
+    }
+    .cover-pic{
+        width: 672px;
+    }
+    .btn{
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .circle{
+        left: 102.5px;
+        top: 35px;
+        width: 38px;
+        height: 38px;
+    }
+   
+    .d-img{
+        position: relative;
+        right: 50px;
+        width: 70px;
+        height: 70px;
+    }
+}
+
+
+

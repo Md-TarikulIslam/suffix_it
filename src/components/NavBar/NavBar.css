@@ -1,16 +1,14 @@
-/* body{
-    background-image: url(../../../public/images/1.png);
-    height: 200px;
-} */
 .stick{
     position: sticky;
     top: 0;
     z-index: 999;
+
 }
 .mark{
     color: red;
     width: 30px;
 }
+
 
 @media only  screen and (max-width:480px) {
     .stick{
@@ -22,5 +20,11 @@
   .d-width{
     width: 400px;
 
+  }
+  .slider{
+    font-size: 40px;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
   }
 }

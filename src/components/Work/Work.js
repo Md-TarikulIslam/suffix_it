@@ -18,11 +18,11 @@ const Work = () => {
         <div>
           <p className="why-text">Why Choose Us</p>
           <p className="work-text">
-            We are working with <br /> 8 years experience
+            We are working with <br className="break" /> 8 years experience
           </p>
           <p className="consist">
             We consist of a great team of professional and highly skilled
-            engineers with excellent <br />
+            engineers with excellent <br className="break" />
             technical knowledge and experience for developing quality software.{" "}
           </p>
 
