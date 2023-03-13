@@ -1,0 +1,24 @@
+.main-container{
+    /* width: 1000px; */
+    padding: 0 200px;
+}
+.swip-container{
+padding: 30px;
+box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+border-radius: 5px;
+margin-bottom: 50px;
+min-height: 400px;
+}
+.swip-img{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.swip-h{
+    font-size: 20px;
+    color: rgb(96, 157, 206);
+    font-weight: 500;
+}
+.swip-p{
+    margin: 30px 0;
+}

@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faServer, faBuilding, faCartShopping , faHospital, faGraduationCap, faGears, faMessage, faMobile, faDatabase } from "@fortawesome/free-solid-svg-icons";
 import React from 'react';
 import './Services.css'
+import Products from '../Products/Products';
 
 
 const Services = () => {
@@ -60,6 +61,7 @@ const Services = () => {
                 <p className='service-p'>Database backup and storage provides centrally controlled protection, security of enterprise and...</p> 
             </div>
            </div>
+           <Products></Products>
         </div>
     );
 };

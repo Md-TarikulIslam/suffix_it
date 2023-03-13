@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "image": "https://suffixit.com/static/media/hotel.5b98d81a.svg",
+    "header": "Hotel Booking System",
+    "details":
+      "Database backup and storage provides centrally controlled protection, security of enterprise and reduces the possibility..."
+  },
+  {
+    "id": "2",
+    "image": "https://suffixit.com/static/media/erp.d84b0931.svg",
+    "header": "Rupantor ERP",
+    "details":
+      "Database backup and storage provides centrally controlled protection, security of enterprise and reduces the possibility..."
+  },
+  {
+    "id": "3",
+    "image": "https://suffixit.com/static/media/fund.d623ba98.svg",
+    "header": "Provident Fund",
+    "details":
+      "Database backup and storage provides centrally controlled protection, security of enterprise and reduces the possibility..."
+  },
+  {
+    "id": "4",
+    "image": "https://suffixit.com/static/media/inventory.b0d9ca0b.svg",
+    "header": "Rupantor Inventory",
+    "details":
+      "Database backup and storage provides centrally controlled protection, security of enterprise and reduces the possibility..."
+  },
+  {
+    "id": "5",
+    "image": "https://suffixit.com/static/media/location.9c6949b3.svg",
+    "header": "Field Force Management",
+    "details":
+      "Database backup and storage provides centrally controlled protection, security of enterprise and reduces the possibility..."
+  },
+  {
+    "id": "6",
+    "image": "https://suffixit.com/static/media/payroll.4bb65f22.svg",
+    "header": "Payroll System",
+    "details":
+      "Database backup and storage provides centrally controlled protection, security of enterprise and reduces the possibility..."
+  }
+]
