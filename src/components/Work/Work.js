@@ -6,7 +6,7 @@ import Company from "../Company/Company";
 
 const Work = () => {
   return (
-    <div>
+    <div id="work">
       <div className="flex2">
         <div>
           <img
@@ -77,7 +77,7 @@ const Work = () => {
             </div>
           </div>
           <div>
-            <button className="learn-btn">Learn More</button>
+            <a href="#company"><button className="learn-btn">Learn More</button></a>
             <FontAwesomeIcon className="arrow-icon" icon={faArrowRight} />
           </div>
         </div>

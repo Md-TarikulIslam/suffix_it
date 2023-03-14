@@ -1,27 +1,30 @@
-.stick{
-    position: sticky;
-    top: 0;
-    z-index: 999;
+.stick {
+  position: sticky;
+  top: 0;
+  z-index: 999;
 
 }
-.mark{
-    color: red;
-    width: 30px;
+
+.mark {
+  color: red;
+  width: 30px;
 }
 
 
-@media only  screen and (max-width:480px) {
-    .stick{
-        width: 673px;
-        overflow-x: hidden;
-       position: static;
+@media only screen and (max-width:480px) {
+  .stick {
+    width: 673px;
+    overflow-x: hidden;
+    position: static;
 
-    }
-  .d-width{
+  }
+
+  .d-width {
     width: 400px;
 
   }
-  .slider{
+
+  .slider {
     font-size: 40px;
     border: 1px solid grey;
     padding: 10px;

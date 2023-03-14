@@ -4,7 +4,7 @@ import "./Company.css";
 
 const Company = () => {
   return (
-    <div>
+    <div id="company">
       <div className="company-div">
         <h1 className="text-slate-600 text-3xl our font-bold mb-5">
           Our{" "}
