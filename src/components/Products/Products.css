@@ -1,24 +1,66 @@
-.main-container{
+.main-container {
     /* width: 1000px; */
     padding: 0 200px;
 }
-.swip-container{
-padding: 30px;
-box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
-border-radius: 5px;
-margin-bottom: 50px;
-min-height: 400px;
+
+.swip-container {
+    padding: 30px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
+    border-radius: 5px;
+    margin-bottom: 50px;
+    min-height: 500px;
 }
-.swip-img{
+
+.swip-img {
     width: 150px;
+    height: 200px;
     margin-left: auto;
     margin-right: auto;
 }
-.swip-h{
+
+.swip-h {
     font-size: 20px;
     color: rgb(96, 157, 206);
     font-weight: 500;
 }
-.swip-p{
+
+.swip-p {
     margin: 30px 0;
+}
+
+@media screen and (max-width:480px) {
+    .main-container {
+        padding: 0;
+
+    }
+
+    .swip-container {
+        min-height: 650px;
+    }
+
+    .full-container {
+        position: relative;
+        left: 100px;
+    }
+
+    .mySwiper {
+        position: relative;
+        right: 10px;
+        width: 500px;
+    }
+
+    .swip-img {
+        margin-top: 20px;
+        width: 300px;
+    }
+
+    .swip-h {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .swip-p {
+        font-size: 30px;
+    }
+
 }
