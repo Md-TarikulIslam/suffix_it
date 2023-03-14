@@ -10,9 +10,11 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import { Pagination, Navigation, Autoplay, FreeMode } from "swiper";
+import Clients from "../Clients/Clients";
 
 const Comments = () => {
   return (
+    <div>
     <div className="fullContainer">
       <h1 className="w-text">What They Said!</h1>
       <h1 className="s-text">
@@ -32,7 +34,7 @@ const Comments = () => {
         }}
         direction="horizontal"
         autoplay={{
-          delay: 500,
+          delay: 2500,
         }}
         spaceBetween={30}
         // pagination={{
@@ -50,6 +52,9 @@ const Comments = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+      
+    </div>
+    <Clients></Clients>
     </div>
   );
 };

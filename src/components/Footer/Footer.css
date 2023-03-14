@@ -1,0 +1,136 @@
+.footer-area{
+    background-color: black;
+    border: 1px solid red;
+    padding: 100px;
+}
+
+.flex10{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.company-logo{
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+.address, .mail, .phone{
+    text-align: left;
+    color: #a39eb9;
+}
+.address{
+    width: 300px;
+}
+
+.b-logo{
+    margin-top: 40px;
+    font-size: 50px;
+    border: 1px solid gray;
+    border-radius: 40%;
+    padding: 15px;
+    margin-right: 10px;
+    color: white;
+}
+.logo-flex{
+    display: flex;
+    
+}
+
+.foo-head{
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.link-flex{
+    display: flex;
+    flex-direction: column;
+}
+.li-name{
+    text-align: left;
+    color: #a39eb9;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.li-name:hover{
+    color: white;
+}
+.foo-img{
+    width: 150px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+hr{
+    margin-top: 100px;
+    width: 1150px;
+    position: relative;
+    left: 80px;
+}
+.rights-all{
+    color: #a39eb9;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 695px;
+}
+.privacy{
+    color: #a39eb9;
+    margin-top: 30px;
+}
+.term-flex{
+    display: flex;
+
+}
+
+
+@media only screen and (max-width:480px) {
+    .flex10{
+        flex-direction: column;
+    }
+    .footer-area{
+        width: 673px;
+    }
+    .company-logo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .address{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+     .mail, .phone{
+        text-align: center;
+    }
+    .b-logo{
+        position: relative;
+        left: 150px;
+        margin-bottom: 50px;
+
+    }
+    .foo-head, .li-name{
+        text-align: center;
+    }
+   .link-flex{
+    margin-bottom: 40px;
+   }
+    hr{
+        width: 670px;
+        left: -100px;
+        /* right: 250px; */
+    }
+    .rights-all{
+        margin-right: 50px;
+    }
+    .foo-img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .term-flex{
+        flex-direction: column;
+    }
+    .privacy{
+        margin-top: 10px;
+    }
+}
