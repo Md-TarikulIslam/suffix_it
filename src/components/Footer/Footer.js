@@ -71,6 +71,7 @@ const Footer = () => {
         <div className="term-flex">
             <p className="rights-all"><span> &copy; 2023 All Rights Reserved by <span className="text-blue-500">Suffix IT</span></span></p>
             <p className="privacy">Privacy & Policy.Faq.Terms</p>
+            
         </div>
       </div>
     </div>
