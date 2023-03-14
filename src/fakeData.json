@@ -4,41 +4,55 @@
     "image": "https://suffixit.com/static/media/hotel.5b98d81a.svg",
     "header": "Hotel Booking System",
     "details":
-      "Database backup and storage provides centrally controlled protection, security of enterprise and reduces the possibility..."
+      "We provide the cloud based most user friendly and cost effective hotel booking management system."
   },
   {
     "id": "2",
     "image": "https://suffixit.com/static/media/erp.d84b0931.svg",
     "header": "Rupantor ERP",
     "details":
-      "Database backup and storage provides centrally controlled protection, security of enterprise and reduces the possibility..."
+      "Rupantor ERP will integrate all of the processes needed to run your business."
   },
   {
     "id": "3",
     "image": "https://suffixit.com/static/media/fund.d623ba98.svg",
     "header": "Provident Fund",
     "details":
-      "Database backup and storage provides centrally controlled protection, security of enterprise and reduces the possibility..."
+      "An advanced way to handle your employee’s funding management with our PF Software."
   },
   {
     "id": "4",
     "image": "https://suffixit.com/static/media/inventory.b0d9ca0b.svg",
     "header": "Rupantor Inventory",
     "details":
-      "Database backup and storage provides centrally controlled protection, security of enterprise and reduces the possibility..."
+      "Our Inventory Management system will manage your cash flow, reduce cost and maximize profits"
   },
   {
     "id": "5",
     "image": "https://suffixit.com/static/media/location.9c6949b3.svg",
     "header": "Field Force Management",
     "details":
-      "Database backup and storage provides centrally controlled protection, security of enterprise and reduces the possibility..."
+      "With Suffix Field force you can move a lot faster and keep adapting to your customers needs."
   },
   {
     "id": "6",
     "image": "https://suffixit.com/static/media/payroll.4bb65f22.svg",
     "header": "Payroll System",
     "details":
-      "Database backup and storage provides centrally controlled protection, security of enterprise and reduces the possibility..."
+      "Suffix Payroll will help you to automate and streamline all of your HR services"
+  },
+  {
+    "id": "7",
+    "image": "https://suffixit.com/static/media/billing.f9c0cbaa.svg",
+    "header": "Interconnect Bill",
+    "details":
+      "It will allow business optimization and help in achieving increased operational efficiency and network profitability"
+  },
+  {
+    "id": "8",
+    "image": "https://suffixit.com/static/media/eCommerce.d3e8ec01.svg",
+    "header": "E-Commerce",
+    "details":
+      "We offer full-cycle retail and e-commerce app solutions to both B2B and B2C customers, based on their specific requirements."
   }
 ]

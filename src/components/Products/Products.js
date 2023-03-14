@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 
-import { Pagination, Autoplay } from "swiper";
+import { Pagination, Autoplay, FreeMode } from "swiper";
 
 const Products = () => {
   return (
@@ -28,17 +28,20 @@ const Products = () => {
       </div>
       <div className="main-container">
         <Swiper
-          modules={[Pagination, Autoplay]}
-        
+          modules={[Pagination, Autoplay, FreeMode]}
+          freeMode={true}
           breakpoints={{
-            320:{
-                slidesPerView:1
+            320: {
+              slidesPerView: 1,
             },
-            640:{
-                slidesPerView:4
-            }
+            640: {
+              slidesPerView: 3,
+            },
           }}
-          autoplay={true}
+          autoplay={{
+            delay: 1500,
+            disableOnInteraction: false,
+          }}
           loop={true}
           speed={1000}
           centeredSlides={true}
