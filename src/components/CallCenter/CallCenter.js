@@ -6,9 +6,9 @@ const CallCenter = () => {
   return (
     <div>
       <div className="call-div">
-        <h1 className="text-slate-600 text-3xl our font-bold mb-5">
+        <h1 className="text-slate-600  l-gap text-3xl our font-bold mb-5">
           Our{" "}
-          <span className="text-blue-500 l-gap font-bold center text-3xl">
+          <span className="text-blue-500 font-bold center text-3xl">
             {" "}
             Call Center Service
           </span>{" "}

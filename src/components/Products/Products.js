@@ -9,6 +9,7 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 
 import { Pagination, Autoplay, FreeMode } from "swiper";
+import Comments from "../Comments/Comments";
 
 const Products = () => {
   return (
@@ -62,6 +63,7 @@ const Products = () => {
           ))}
         </Swiper>
       </div>
+      <Comments></Comments>
     </div>
   );
 };
