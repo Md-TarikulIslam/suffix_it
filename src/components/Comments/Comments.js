@@ -40,7 +40,7 @@ const Comments = () => {
         // pagination={{
         //   clickable: true,
         // }}
-        className="mySwiper "
+        className="mySwiperr "
       >
         {comments.map((comment) => (
           <SwiperSlide className="card-container">

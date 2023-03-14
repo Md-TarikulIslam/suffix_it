@@ -11,8 +11,9 @@ const Hero = () => {
         <div className="flex justify-evenly items-center reverse cover-pic">
           <div className="pl-8 text-start">
             <h1
-              data-aos="fade-up"
-              data-aos-anchor-placement="bottom-bottom"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
               className="text-5xl font-bold pb-10 care-color"
             >
               We care about the <br /> IT Solution you need

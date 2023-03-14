@@ -104,15 +104,17 @@
  
     .flex2{
         flex-direction: column;
-        position: relative;
-        left: 150px;
+        margin-left: -300px;
+      
     }
     .work-text{
         width: 500px;
+        /* margin-left: 20px; */
     }
     .consist{
         margin-top: 20px;
         font-size: 30px;
+        width: 550px;
     }
     .arrow-icon{
        

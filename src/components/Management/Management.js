@@ -75,9 +75,9 @@ const Management = () => {
         </div>
         <div>
           <img
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
+            // data-aos="fade-right"
+            // data-aos-offset="300"
+            // data-aos-easing="ease-in-sine"
             className="force-img"
             src="https://suffixit.com/static/media/field-force.497227c8.png"
             alt=""

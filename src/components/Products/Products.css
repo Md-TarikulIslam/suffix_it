@@ -37,9 +37,14 @@
 
     .swip-container {
         min-height: 700px;
+       /* position: relative;
+       right: 100px; */
         
     }
-
+.text-product{
+    position: relative;
+    right: 20px;
+}
     .full-container {
         position: relative;
         left: 100px;
@@ -47,7 +52,7 @@
 
     .mySwiper {
         position: relative;
-        right: 10px;
+        right: 100px;
         width: 500px;
         margin-bottom: 80px;
     }

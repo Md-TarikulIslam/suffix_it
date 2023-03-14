@@ -22,35 +22,7 @@ const Clients = () => {
           We Work Only For <span className="text-blue-500">The Best.</span>
         </p>
       </div>
-      {/* <Swiper
-        modules={[Pagination, Autoplay, FreeMode]}
-        breakpoints={{
-          320: {
-            slidesPerView: 1,
-          },
-          640: {
-            slidesPerView: 5,
-          },
-        }}
-        direction="horizontal"
-        autoplay={{
-          delay: 500,
-        }}
-        spaceBetween={0}
-        pagination={{
-          clickable: true,
-        }}
-        SwiperSlide={true}
-        // className="swiper-slide-active swiper-slider-next "
-      >
-        {clients.map((client) => (
-          <SwiperSlide className="logo-container">
-          
-            <img className="com-img" src={client["com-logo"]} alt="" />
      
-          </SwiperSlide>
-        ))}
-      </Swiper> */}
      
         
       <div className="slider1">

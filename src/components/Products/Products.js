@@ -14,7 +14,7 @@ import Comments from "../Comments/Comments";
 const Products = () => {
   return (
     <div className="full-container">
-      <div>
+      <div className="text-product">
         <h1 className="our-text mt-40">
           Our <span className="service-text">Products</span>
         </h1>
@@ -51,7 +51,7 @@ const Products = () => {
           pagination={{
             clickable: true,
           }}
-          navigation={true}
+          // navigation={true}
           className="mySwiper "
         >
           {fakeData.map((data) => (
