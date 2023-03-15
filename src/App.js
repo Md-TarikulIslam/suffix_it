@@ -3,9 +3,9 @@ import "./App.css";
 import About from "./components/About/About";
 import Hero from "./components/Hero/Hero";
 import Main from "./components/layout/Main";
-import Work from "./components/Work/Work";
 import ScrollToTop from "react-scroll-to-top";
 import Career from "./components/Career/Career";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   const router = createBrowserRouter([
@@ -25,6 +25,10 @@ function App() {
         {
           path: "/career",
           element: <Career></Career>,
+        },
+        {
+          path: "/contact",
+          element: <Contact></Contact>,
         },
       ],
     },

@@ -70,7 +70,8 @@ export default function NavBar() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1  ">
-          <Link to='/' className="-m-1.5 p-1.5"><span className="sr-only">Your Company</span>
+          <Link to="/" className="-m-1.5 p-1.5">
+            <span className="sr-only">Your Company</span>
             <img
               className="h-12 w-auto"
               src="https://suffixit.com/static/media/Suffix-Logo.73142c9b.png"
@@ -229,15 +230,20 @@ export default function NavBar() {
               </Popover.Panel>
             </Transition>
           </Popover>
-          <Link to='/career'  className="text-base font-semibold leading-6 text-gray-900">Career</Link>
+          <Link
+            to="/career"
+            className="text-base font-semibold leading-6 text-gray-900"
+          >
+            Career
+          </Link>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a
-            href="#"
+          <Link
+            to="/contact"
             className="text-base font-semibold leading-6 text-gray-900 bg-blue-500 rounded-md shadow-2xl px-10 py-2 text-white"
           >
             Contact
-          </a>
+          </Link>
         </div>
       </nav>
       <Dialog
@@ -252,12 +258,14 @@ export default function NavBar() {
           className="fixed inset-y-0 left-0 z-10 d-width overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
         >
           <div className="flex items-center justify-between ">
-            <Link to='/' className="-m-1.5 p-1.5"><span className="sr-only">Your Company</span>
+            <Link to="/" className="-m-1.5 p-1.5">
+              <span className="sr-only">Your Company</span>
               <img
                 className="h-12 w-auto "
                 src="https://suffixit.com/static/media/Suffix-Logo.73142c9b.png"
                 alt=""
-              /></Link>
+              />
+            </Link>
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-gray-700"
@@ -328,15 +336,20 @@ export default function NavBar() {
                     </>
                   )}
                 </Disclosure>
-                <Link to='/career' className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Career</Link>
+                <Link
+                  to="/career"
+                  className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  Career
+                </Link>
               </div>
               <div className="py-6">
-                <a
-                  href="#"
+                <Link
+                  to="./contact"
                   className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Contact
-                </a>
+                </Link>
               </div>
             </div>
           </div>
