@@ -73,11 +73,11 @@ const Management = () => {
             <button className="view-btn">VIEW MORE DETAILS</button>
           </div>
         </div>
-        <div>
+        <div   data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
           <img
-            // data-aos="fade-right"
-            // data-aos-offset="300"
-            // data-aos-easing="ease-in-sine"
+          
             className="force-img"
             src="https://suffixit.com/static/media/field-force.497227c8.png"
             alt=""

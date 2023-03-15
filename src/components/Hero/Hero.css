@@ -1,11 +1,13 @@
-.cover-pic{
+.cover-pic {
     background: url(../../../public/images/1.png);
-  
-  }
-.care-color{
+
+}
+
+.care-color {
     color: #071c4d;
 }
-.btn{
+
+.btn {
     padding: 10px 35px;
     background-color: #0d6efd;
     border-radius: 5px;
@@ -13,14 +15,15 @@
     box-shadow: 0 11px 18px -8px #0d6efd;
 }
 
-.banner-img{
+.banner-img {
     width: 576px;
     position: relative;
     top: 50px;
 
 }
 
-.bubble-1{
+
+.bubble-1 {
     background-color: #0d6efd;
     padding: 70px 80px;
     border-radius: 50%;
@@ -28,33 +31,36 @@
     right: 150px;
     bottom: 330px;
 
-    
+
 }
-.bubble-2{
+
+.bubble-2 {
     background-color: white;
     padding: 30px 40px;
     border-radius: 50%;
     position: relative;
     left: 160px;
     bottom: 550px;
-    box-shadow: 10px 10px 20px rgba(0,0,0,.1);;
-   
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .1);
+    ;
+
 }
 
-.dot-down{
+.dot-down {
     position: relative;
     bottom: 110px;
     left: 70px;
     z-index: -1;
 }
 
-.dot-up{
+.dot-up {
     position: relative;
     bottom: 548px;
     left: 458px;
     z-index: -1;
 }
-.d-img{
+
+.d-img {
     background-color: white;
     border-radius: 50%;
     width: 50px;
@@ -71,8 +77,9 @@
     width: 28px;
     height: 28px;
     z-index: -1;
-  }
-  .circle:before {
+}
+
+.circle:before {
     content: "";
     position: relative;
     display: block;
@@ -84,72 +91,79 @@
     border-radius: 45px;
     background-color: #797687;
     animation: pulse 2.5s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
-  }
+}
 
-  
-  @keyframes pulse {
+
+@keyframes pulse {
     0% {
-      transform: scale(0.33);
+        transform: scale(0.33);
     }
-    80%, 100% {
-      opacity: 0;
+
+    80%,
+    100% {
+        opacity: 0;
     }
-  }
+}
 
 
 
 
-@media only  screen and (max-width:480px) {
-    .reverse{
+@media only screen and (max-width:480px) {
+    .reverse {
         flex-direction: column-reverse;
         position: relative;
         margin-top: 30px;
- 
+
     }
- .banner-img{
-    margin-top: 50px;
- }
- .bubble-1{
-    padding: 80px 90px;
-    bottom: 500px;
-    right: 170px;
- }
-    .bubble-2{
+
+    .banner-img {
+        margin-top: 50px;
+    }
+
+    .bubble-1 {
+        padding: 80px 90px;
+        bottom: 500px;
+        right: 170px;
+    }
+
+    .bubble-2 {
         bottom: 600px;
         left: 170px;
         padding: 60px 70px;
     }
-    .dot-up{
+
+    .dot-up {
         bottom: 480px;
         left: 440px;
         width: 150px;
     }
-    .dot-down{
+
+    .dot-down {
         bottom: 240px;
         left: 50px;
         width: 150px;
     }
-    .cover-pic{
+
+    .cover-pic {
         width: 672px;
     }
-    .btn{
+
+    .btn {
         font-size: 30px;
         margin-bottom: 50px;
     }
-    .circle{
+
+    .circle {
         left: 102.5px;
         top: 35px;
         width: 38px;
         height: 38px;
     }
-   
-    .d-img{
+
+    .d-img {
         position: relative;
         right: 50px;
         width: 70px;
         height: 70px;
     }
 }
-
-
-
