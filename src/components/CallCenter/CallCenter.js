@@ -1,3 +1,5 @@
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import Services from "../Services/Services";
 import "./CallCenter.css";
@@ -35,6 +37,7 @@ const CallCenter = () => {
         <p className="call-text">Live Chat Support</p>
         <p className="call-p">Group of smart and charismatic agents are always online to provide live chat services.</p>
       </div>
+      <button className="more-info-btn">More Info <FontAwesomeIcon icon={faArrowRight}/> </button>
      </div>
      <Services></Services>
     </div>

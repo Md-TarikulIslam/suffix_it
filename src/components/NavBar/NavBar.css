@@ -9,7 +9,9 @@
   color: red;
   width: 30px;
 }
-
+.shadow{
+box-shadow: 0 11px 18px -8px #0d6efd;
+}
 
 @media only screen and (max-width:480px) {
   .stick {

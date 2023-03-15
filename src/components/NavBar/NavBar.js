@@ -240,7 +240,7 @@ export default function NavBar() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link
             to="/contact"
-            className="text-base font-semibold leading-6 text-gray-900 bg-blue-500 rounded-md shadow-2xl px-10 py-2 text-white"
+            className="text-base font-semibold leading-6 text-gray-900 bg-blue-500 rounded-md shadow px-10 py-2 text-white"
           >
             Contact
           </Link>

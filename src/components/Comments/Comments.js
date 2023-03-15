@@ -44,7 +44,7 @@ const Comments = () => {
       >
         {comments.map((comment) => (
           <SwiperSlide className="card-container">
-            <h1 className="c-head">{comment.header}</h1>
+            <h1 className="c-header">{comment.header}</h1>
             <h1 className="c-comment">{comment.comment}</h1>
             <img className="c-img" src={comment["p-img"]} alt="" />
             <h1 className="c-name">{comment.name}</h1>
