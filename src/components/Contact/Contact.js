@@ -1,9 +1,13 @@
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import Map from "../Map/Map";
 import "./Contact.css";
 
+
+
 const Contact = () => {
+ 
   return (
     <div>
       <div>
@@ -69,8 +73,12 @@ const Contact = () => {
             <button className="s-btn">SEND MESSAGE</button>
         </div>
       </div>
+    <Map></Map>
     </div>
   );
 };
+
+
+
 
 export default Contact;
