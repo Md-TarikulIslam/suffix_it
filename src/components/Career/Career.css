@@ -1,0 +1,163 @@
+.career-bg {
+    background-image: url('https://suffixit.com/static/media/manner-marketing.178d2f0f.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ban-1 {
+    padding-top: 180px;
+    width: 1500px;
+
+}
+
+.c-text {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 670px;
+    color: #2b2350;
+
+}
+
+
+.job-div {
+    margin-bottom: -700px;
+}
+
+.job-bg {
+    position: relative;
+    bottom: 60px;
+}
+
+.c-position {
+    position: relative;
+    bottom: 750px;
+}
+
+.f-job {
+    color: #2b2350;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.c-job {
+    margin-top: 10px;
+    letter-spacing: 5px;
+    color: #7d7a8b;
+    margin-bottom: 50px;
+}
+
+.c-pad {
+    padding: 15px 160px;
+}
+
+.career-flex {
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 6px 0 rgba(10, 1, 47, .06);
+    transition: all .3s ease-in-out;
+}
+
+.career-flex:hover {
+    transform: translateX(20px) scale(1.03)
+}
+
+.c-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+}
+
+
+.jp-div {
+    padding: 0;
+    margin-right: 30px;
+}
+
+.job-title {
+    font-size: 20px;
+    color: #2b2350;
+    font-weight: 700;
+    width: 650px;
+    text-align: left;
+}
+
+.position {
+    text-align: left;
+}
+
+.job-type {
+    margin-right: 250px;
+}
+
+@media screen and (max-width:480px) {
+ 
+    .c-text{
+        bottom: 400px;
+        font-size: 80px;
+    }
+    .job-bg{
+        height: 1300px;
+    }
+    .f-job{
+        font-size: 50px;
+    }
+    .c-job{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .career-flex{
+        flex-direction: column;
+        width: 650px;
+        height: 200px;
+        position: relative;
+        right: 150px;
+    }
+    .c-position{
+        bottom: 1300px;
+    }
+    .job-div{
+        margin-bottom: -1165px;
+    }
+    .job-title{
+        font-size: 32px;
+        text-align: center;
+        width: 500px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .c-logo{
+     position: relative;
+     right: 230px;
+     top: 50px;
+     width: 80px;
+     height: 80px;
+    }
+    .position{
+        text-align: center;
+    }
+    .job-type{
+        margin-right: -50px;
+        position: relative;
+        bottom: 70px;
+    }
+    .location{
+        margin-right: -50px;
+        position: relative;
+        bottom: 70px;
+    }
+    .jp-div{
+        position: relative;
+        bottom: 70px;
+        left: 40px;
+    }
+}

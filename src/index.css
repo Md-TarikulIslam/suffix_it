@@ -18,7 +18,6 @@ code {
 @media screen and (max-width:480px){
   body{
     zoom: 58.5%;
-    /* position: absolute; */
     overflow-x: hidden;
   }
   html{
