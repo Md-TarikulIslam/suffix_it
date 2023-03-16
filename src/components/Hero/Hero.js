@@ -18,7 +18,7 @@ const Hero = () => {
               >
                 We care about the <br /> IT Solution you need
               </h1>
-              <p className="text-2xl opacity-50 pb-10">
+              <p className="text-2xl sample opacity-50 pb-10">
                 Suffix IT provides best and prominent Software & <br /> Hardware
                 solutions to ensure your business
               </p>
@@ -44,6 +44,7 @@ const Hero = () => {
                           {/*body*/}
                           <div className="relative p-6 flex-auto">
                             <iframe
+                            className="youtube"
                               width="560"
                               height="315"
                               src="https://www.youtube.com/embed/t9XYLboQdSg"

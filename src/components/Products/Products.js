@@ -18,7 +18,7 @@ const Products = () => {
         <h1 className="our-text mt-40">
           Our <span className="service-text">Products</span>
         </h1>
-        <p className="service-paragraph mt-10 mb-10">
+        <p className="service-paragraph size-p mt-10 mb-10">
           We offer a diverse spectrum of products for your specific company
           requirements. We implement rigorous quality testing as a <br />{" "}
           technologically process-driven firm to assure seamless,

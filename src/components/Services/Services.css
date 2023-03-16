@@ -1,64 +1,98 @@
-.our-text{
+.our-text {
     font-size: 30px;
-    color: rgba(128, 128, 128, 0.893);
-    font-weight: 600;
+    color: rgb(71, 85, 105);
+    font-weight: 700;
 }
-.service-text{
-    color:rgb(96, 157, 206) ;
+
+.service-text {
+    color: #007aff;
 }
-.service-paragraph{
+
+.service-paragraph {
     font-size: 20px;
     color: grey;
     opacity: 60%;
 }
-.service-grid{
+
+.service-grid {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     padding: 0 200px;
 }
-.service-card{
+
+.service-card {
 
     margin-top: 50px;
-   
+
     border-radius: 5px;
-    box-shadow:  0 .5rem 1rem rgba(0,0,0,.15);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
     margin-bottom: 50px;
     padding: 60px 30px;
 
 }
-.service-icon{
+
+.service-icon {
 
     font-size: 60px;
-    color:#0072bc;
+    color: #0072bc;
 }
-.service-header{
+
+.service-header {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 20px;
     font-weight: 500;
 }
- @media only screen and (max-width:480px) {
-    .service-position{
-        position: relative;
-        left: 80px;
+
+
+
+@media only screen and (max-width:480px) {
+    .our-text {
+
+        width: 300px;
+        font-size: 40px;
+        margin-left: 50px;
     }
-    .our-text{
-        
-        width: 500px;
-        font-size: 50px;
+
+    .service-paragraph {
+        font-size: 25px;
+        width: 300px;
+        margin-left: 50px;
     }
-    .service-paragraph{
-        font-size: 30px;
-        width: 500px;
-    }
-    .service-grid{
-        grid-template-columns: repeat(1,1fr);
+
+    .service-grid {
+        grid-template-columns: repeat(1, 1fr);
         gap: 0;
-        padding: 0 80px;
+        padding: 0 20px;
     }
-    .service-card{
-        width: 500px;
-      
+
+    .service-card {
+        width: 350px;
+
     }
- }
+}
+
+@media screen and (min-width:481px) and (max-width:991px) {
+
+    .service-position {
+        margin-top: 200px;
+    }
+
+    .service-paragraph {
+        width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .service-grid {
+        padding: 0px;
+        gap: 5px;
+        margin-left: 20px;
+    }
+
+    .service-card {
+        width: 270px;
+        margin-bottom: 0;
+    }
+}

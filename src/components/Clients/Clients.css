@@ -1,5 +1,4 @@
-
-.slider1{
+.slider1 {
     height: 280px;
     margin: auto;
     position: relative;
@@ -8,15 +7,18 @@
     place-items: center;
     overflow: hidden;
 }
-.slide-track{
+
+.slide-track {
     display: flex;
     width: calc(280px*6);
     animation: scroll 10s linear infinite;
 }
-.slide-track:hover{
+
+.slide-track:hover {
     animation-play-state: paused;
 }
-.slide{
+
+.slide {
     height: 200px;
     width: 250px;
     display: flex;
@@ -24,46 +26,59 @@
     padding: 15px;
     perspective: 100px;
 }
-.com-img{
+
+.com-img {
     min-width: 250px;
     padding-right: 60%;
     transition: transform 1s;
- 
+
 }
-.com-img:hover{
+
+.com-img:hover {
     transform: translateZ(20px);
 }
 
 @keyframes scroll {
     0% {
-      transform: translateX(0);
+        transform: translateX(0);
     }
+
     100% {
-      transform: translateX(calc(-250px*3));
+        transform: translateX(calc(-250px*3));
     }
-  }
+}
 
 
-  @media only screen and (max-width:480px){
-    .happy, .best{
-        width: 600px;
+@media only screen and (max-width:480px) {
+
+    .happy,
+    .best {
+        width: 300px;
     }
-  
-    .client{
+
+    .happy {
+        line-height: 40px;
+    }
+
+    .client {
         padding: 0;
         margin: 0;
+        margin-left: 40px;
         position: relative;
-        right: 70px;
+
+
     }
-    .slider1{
-       position: relative;
-       right: 105px;
-        width: 500px;
+
+    .slider1 {
+        position: relative;
+        left: 23px;
+        width: 350px;
+        height: 200px;
+        margin: 0;
     }
-    .slide-track{
-        width: 600px;
+
+    .slide-track {
+        width: 00px;
     }
-    .slide{
-        /* width: 600px; */
-    }
-  }
+
+}

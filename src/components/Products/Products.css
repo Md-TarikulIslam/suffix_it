@@ -1,6 +1,6 @@
 .main-container {
     padding: 0 200px;
-    
+
 }
 
 .swip-container {
@@ -31,44 +31,57 @@
 
 @media screen and (max-width:480px) {
     .main-container {
-        padding: 0;
+        padding: 0 0px;
+
 
     }
 
     .swip-container {
-        min-height: 700px;
-       /* position: relative;
-       right: 100px; */
-        
-    }
-.text-product{
-    position: relative;
-    right: 20px;
-}
-    .full-container {
-        position: relative;
-        left: 100px;
+        min-height: 400px;
+        padding: 0 5px;
+
+
     }
 
     .mySwiper {
         position: relative;
-        right: 100px;
-        width: 500px;
+        right: 00px;
+        width: 300px;
         margin-bottom: 80px;
     }
 
     .swip-img {
-        margin-top: 20px;
-        width: 300px;
+        width: 150px;
     }
 
     .swip-h {
-        font-size: 40px;
+        font-size: 25px;
         margin-top: 20px;
     }
 
+    .size-p {
+        font-size: 18px;
+    }
+
     .swip-p {
-        font-size: 30px;
+        margin: 0;
+        font-size: 18px;
+    }
+
+}
+
+
+@media screen and (min-width:481px) and (max-width:991px) {
+    .main-container {
+        padding: 0;
+    }
+
+    .size-p {
+        width: 700px;
+    }
+
+    .mySwiper {
+        width: 800px;
     }
 
 }

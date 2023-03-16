@@ -1,49 +1,56 @@
-.fullContainer{
+.fullContainer {
 
-    background: linear-gradient(45deg,#69a5d7,#1886e0);
+    background: linear-gradient(45deg, #69a5d7, #1886e0);
     padding: 60px 200px;
     margin-top: 50px;
     margin-bottom: 100px;
 }
-.w-text{
-font-size: 28px;
-color: white;
-font-weight: 800;
-letter-spacing: 1px;
-margin-bottom: 20px;
+
+.w-text {
+    font-size: 28px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
 }
-.s-text{
-color: white;
-margin-bottom: 50px;
+
+.s-text {
+    color: white;
+    margin-bottom: 50px;
 }
-.card-container{
- 
+
+.card-container {
+
     border-radius: 5px;
     background: #64b5f6;
     height: 350px;
-    /* min-width: 1800px; */
 
-   
-}
-.c-header{
-color: white;
-font-size: 25px;
-text-align: left;
-padding: 15px;
 
 }
-.c-comment{
+
+.c-header {
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    padding: 15px;
+
+}
+
+.c-comment {
     color: white;
     font-size: 17px;
     text-align: left;
     padding: 15px;
 }
-.c-img{
-width: 18%;
-border-radius: 50%;
-padding: 15px;
+
+.c-img {
+    width: 18%;
+    border-radius: 50%;
+    padding: 15px;
 }
-.c-name, .c-des{
+
+.c-name,
+.c-des {
     color: white;
     font-size: 10px;
     text-align: left;
@@ -52,28 +59,54 @@ padding: 15px;
 
 
 @media only screen and (max-width:480px) {
-    .fullContainer{
-        position: relative;
-       right: 100px;
-        width: 673px;
+    .fullContainer {
+        width: 393px;
         padding: 40px 0;
     }
-    .w-text{
-        font-size: 50px;
+
+    .w-text {
+        font-size: 35px;
     }
-    .mySwiperr{
-      
-        width: 600px;
+
+    .mySwiperr {
+        width: 350px;
     }
-    .s-text{
+
+    .s-text {
         font-size: 30px;
         padding: 0 30px;
     }
-    .c-img{
+
+    .c-img {
         width: 40%;
     }
-    .card-container{
-       height: 500px;
+
+    .card-container {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:991px) {
+
+    .card-container {
+        height: 500px;
+    }
+
+    .c-img {
+        width: 50%;
+    }
+
+    .c-comment {
+        height: 200px;
+    }
+
+    .fullContainer {
+        padding: 55px 0;
+    }
+
+    .mySwiperr {
+        width: 700px;
 
     }
+
 }

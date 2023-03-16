@@ -16,7 +16,7 @@ const Work = () => {
             alt=""
           />
         </div>
-        <div>
+        <div className="corner">
           <p className="why-text">Why Choose Us</p>
           <p className="work-text">
             We are working with <br className="break" /> 8 years experience

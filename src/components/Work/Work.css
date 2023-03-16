@@ -1,13 +1,15 @@
-.work-img{
+.work-img {
     width: 700px;
 }
-.flex2{
+
+.flex2 {
     display: flex;
     margin-top: 200px;
     justify-content: space-around;
     align-items: center;
 }
-.why-text{
+
+.why-text {
     font-size: 25px;
     color: rgb(0, 114, 188);
     font-weight: 700;
@@ -15,72 +17,74 @@
     text-align: left;
 }
 
-.work-text{
+.work-text {
     font-size: 3rem;
     color: rgb(7, 28, 77);
     font-weight: 700;
     text-align: left;
 }
 
-.consist{
+.consist {
     text-align: left;
     opacity: 70%;
 }
-.flex-3{
+
+.flex-3 {
     display: flex;
     margin-top: 30px;
 }
 
-.icons{
+.icons {
     width: 60px;
     background-color: white;
     border-radius: 50%;
     padding: 15px;
     border: white;
-    box-shadow: 0 10px 20px 0 rgba(0,0,0,.1);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .1);
 }
 
-.flex-4{
+.flex-4 {
     display: flex;
     align-items: center;
 }
 
-.focus-text{
+.focus-text {
     color: rgb(7, 28, 77);
     margin-left: 10px;
     margin-right: 100px;
 }
 
-.flex-5{
+.flex-5 {
 
     display: flex;
     text-align: left;
     margin-top: 40px;
- 
 
- 
+
+
 }
-.flex-6{
+
+.flex-6 {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 
 
-   
+
 }
 
-.icon-color{
+.icon-color {
     color: #095797;
     margin-right: 5px;
 
 }
 
-.span-space{
+.span-space {
     margin-right: 120px;
-   
+
 }
 
-.learn-btn{
+.learn-btn {
     position: relative;
     right: 238px;
     padding: 10px 40px;
@@ -94,65 +98,100 @@
     letter-spacing: 1px;
 }
 
-.arrow-icon{
+.arrow-icon {
     color: white;
     position: relative;
     right: 272px;
 }
 
 @media only screen and (max-width:480px) {
- 
-    .flex2{
+
+    .flex2 {
         flex-direction: column;
-        margin-left: -300px;
-      
+        position: relative;
+        bottom: 100px;
+
+
     }
-    .work-text{
-        width: 500px;
-        /* margin-left: 20px; */
+
+    .corner {
+        margin-left: 20px;
     }
-    .consist{
+
+    .work-text {
+        width: 350px;
+        font-size: 35px;
+    }
+
+    .consist {
         margin-top: 20px;
-        font-size: 30px;
-        width: 550px;
+        font-size: 25px;
+        width: 350px;
     }
-    .arrow-icon{
-       
-        right: 137px;
+
+    .arrow-icon {
+
+        right: 98px;
+        top: 4px;
         font-size: 25px;
     }
-    .flex-3{
+
+    .flex-3 {
         flex-direction: column;
-        
+
     }
-    .flex-4{
+
+    .flex-4 {
         margin-bottom: 20px;
     }
-    .focus-text{
+
+    .focus-text {
+        font-size: 20px;
+    }
+
+    .icon-color {
         font-size: 30px;
     }
-    .icon-color{
-        font-size: 30px;
+
+    .text-size {
+        font-size: 20px;
     }
-    .text-size{
-        font-size: 30px;
-    }
-    .flex-5{
+
+    .flex-5 {
         flex-direction: column;
     }
-    .work-img{
-        max-width: 600px; 
+
+    .work-img {
+        width: 400px;
     }
-    .break{
+
+    .break {
         display: none;
     }
-   .tech{
-    margin-right: 0;
-   }
-   .learn-btn{
-    margin-top: 50px;
-    margin-bottom: 150px;
-    font-size: 30px;
-    right: 105px;
-   }
+
+    .tech {
+        margin-right: 0;
+    }
+
+    .learn-btn {
+        margin-top: 30px;
+        margin-bottom: 150px;
+        font-size: 20px;
+        right: 65px;
+    }
+
+
+
+}
+
+@media screen and (min-width:481px) and (max-width:991px) {
+.flex2{
+    flex-direction: column;
+}
+.corner{
+    margin-left: 100px;
+}
+.work-img{
+    width: 800px;
+}
 }

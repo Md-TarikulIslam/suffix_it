@@ -1,27 +1,30 @@
-.footer-area{
+.footer-area {
     background-color: black;
     padding: 100px;
 }
 
-.flex10{
+.flex10 {
     display: flex;
     justify-content: space-evenly;
 }
 
-.company-logo{
+.company-logo {
     width: 60%;
     margin-bottom: 40px;
 }
 
-.address, .mail, .phone{
+.address,
+.mail,
+.phone {
     text-align: left;
     color: #a39eb9;
 }
-.address{
+
+.address {
     width: 300px;
 }
 
-.b-logo{
+.b-logo {
     margin-top: 40px;
     font-size: 50px;
     border: 1px solid gray;
@@ -30,12 +33,13 @@
     margin-right: 10px;
     color: white;
 }
-.logo-flex{
+
+.logo-flex {
     display: flex;
-    
+
 }
 
-.foo-head{
+.foo-head {
     font-size: 22px;
     font-weight: 500;
     color: white;
@@ -43,93 +47,133 @@
     margin-bottom: 30px;
 }
 
-.link-flex{
+.link-flex {
     display: flex;
     flex-direction: column;
 }
-.li-name{
+
+.li-name {
     text-align: left;
     color: #a39eb9;
     line-height: 35px;
     letter-spacing: 1px;
 }
-.li-name:hover{
+
+.li-name:hover {
     color: white;
 }
-.foo-img{
+
+.foo-img {
     width: 150px;
     background-color: white;
     margin-bottom: 30px;
 }
-hr{
+
+hr {
     margin-top: 100px;
     width: 1150px;
     position: relative;
     left: 80px;
 }
-.rights-all{
+
+.rights-all {
     color: #a39eb9;
     margin-top: 30px;
     margin-left: 80px;
     margin-right: 695px;
 }
-.privacy{
+
+.privacy {
     color: #a39eb9;
     margin-top: 30px;
 }
-.term-flex{
+
+.term-flex {
     display: flex;
 
 }
 
 
 @media only screen and (max-width:480px) {
-    .flex10{
+    .flex10 {
         flex-direction: column;
     }
-    .footer-area{
-        width: 673px;
+
+    .footer-area {
+        width: 393px;
+        padding: 30px 0;
     }
-    .company-logo{
+
+    .company-logo {
         margin-left: auto;
         margin-right: auto;
     }
-    .address{
+
+    .address {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
     }
-     .mail, .phone{
+
+    .mail,
+    .phone {
         text-align: center;
     }
-    .b-logo{
+
+    .b-logo {
         position: relative;
-        left: 150px;
+        left: 110px;
         margin-bottom: 50px;
 
     }
-    .foo-head, .li-name{
+
+    .foo-head,
+    .li-name {
         text-align: center;
     }
-   .link-flex{
-    margin-bottom: 40px;
-   }
-    hr{
-        width: 670px;
-        left: -100px;
-        /* right: 250px; */
+
+    .link-flex {
+        margin-bottom: 40px;
     }
-    .rights-all{
+
+    hr {
+        width: 370px;
+        left: 10px;
+        right: 100px;
+    }
+
+    .rights-all {
         margin-right: 50px;
     }
-    .foo-img{
+
+    .foo-img {
         margin-left: auto;
         margin-right: auto;
     }
-    .term-flex{
+
+    .term-flex {
         flex-direction: column;
     }
-    .privacy{
+
+    .privacy {
         margin-top: 10px;
     }
+}
+
+@media screen and (min-width:481px) and (max-width:991px) {
+
+.flex10{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+hr{
+    width: 700px;
+    right: 100px;
+    left: 0;
+}
+.rights-all{
+    margin-right: 240px;
+    margin-left: 0;
+}
+
 }

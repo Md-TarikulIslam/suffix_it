@@ -1,9 +1,9 @@
 .force-img {
     width: 700px;
-    
+
 }
 
-.flex2 {
+.flex-2 {
     display: flex;
     margin-top: 200px;
     justify-content: space-around;
@@ -54,7 +54,7 @@
 
 }
 
-.flex-6 {
+.flex6 {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -93,34 +93,39 @@
 @media only screen and (max-width:480px) {
 
 
-    .flex2 {
+    .flex-2 {
         flex-direction: column;
         position: relative;
-        left: 150px;
+        left: -20px;
     }
-    .force-img{
+
+    .force-img {
         margin-bottom: 100px;
     }
 
     .work-text-field {
-        width: 500px;
+        width: 350px;
+        font-size: 35px;
     }
 
     .view-btn {
-        right: 125px;
-        padding: 20px 45px;
+        right: 55px;
+        padding: 15px 35px;
     }
 
     .icon-color-blue {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .text-lg {
-        font-size: 30px;
+        width: 200px;
+        font-size: 18px;
     }
 
     .force-img {
-        max-width: 600px;
+        position: relative;
+        left: 20px;
+        width: 400px;
     }
 
     .break {
@@ -131,7 +136,18 @@
         margin-right: 0;
     }
 
-    .flex-6 {
-        padding-bottom: 20px;
+    .flex6 {
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:991px) {
+    .flex-2 {
+        flex-direction: column;
+
+    }
+
+    .force-img {
+        width: 900px;
     }
 }

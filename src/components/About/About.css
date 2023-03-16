@@ -67,7 +67,7 @@
     font-weight: 700;
 }
 
-.about-flex {
+.about-flex2 {
     display: flex;
     /* justify-content: space-evenly; */
     align-items: center;
@@ -115,23 +115,27 @@
 
 @media only screen and (max-width:480px) {
     .ocean{
-        top: 447px;
-        width: 672px;
+        top: 437px;
+        width: 393px;
     }
-    .about-flex{
+    .about-flex2{
         padding: 0;
         flex-direction: column-reverse;
-        width: 673px;
+        width: 392px;
+        margin-top: 50px;
+    }
+    .about-all-text{
+        margin-left: 30px;
     }
     .moto-details{
-        width: 550px;
+        width: 300px;
     }
     .about-img{
-        margin-top: 100px;
-        width: 600px;
+        margin-top: 0px;
+        width: 300px;
     }
     .about-us{
-        width: 673px;
+        width: 393px;
     }
     .icon-arrow{
         left: 0px;
@@ -148,3 +152,23 @@
         font-size: 30px;
     }
 }
+
+
+@media screen and (min-width:481px) and (max-width:991px) {
+.ocean{
+    top: 435px;
+}
+.about-flex2{
+    flex-direction: column-reverse;
+    margin-top: 50px;
+}
+.about-img{
+    margin-bottom: 80px;
+    min-width: 850px;
+}
+.moto-details{
+    width: 800px;
+}
+}
+
+

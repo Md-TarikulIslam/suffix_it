@@ -51,12 +51,12 @@
 @media only screen and (max-width:480px) {
     .center-grid {
         grid-template-columns: repeat(1, 1fr);
-        padding: 0 85px;
+        padding: 0 20px;
 
     }
 
     .center-card {
-        width: 500px;
+        width: 350px;
 
     }
 
@@ -64,27 +64,48 @@
 
         position: relative;
         left: 35px;
-        width: 600px;
+        width: 300px;
     }
 
     .our,
     .center {
-        font-size: 55px;
+        font-size: 35px;
 
     }
 
     .l-gap {
-        line-height: 70px;
+        line-height: 50px;
 
     }
 
     .c-paragraph {
         margin-top: 50px;
-        font-size: 40px;
+        font-size: 25px;
         text-align: center;
-        line-height: 55px;
+        line-height: 40px;
     }
-    .more-info-btn{
+
+    .more-info-btn {
+        left: 100px;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:991px) {
+
+    .margin-top {
+        position: relative;
+        top: 100px;
+    }
+
+    .center-card {
+        position: relative;
+        right: 135px;
+        width: 240px;
+    }
+
+    .more-info-btn {
         left: 180px;
+        margin-bottom: 20px;
     }
+
 }

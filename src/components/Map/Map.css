@@ -13,13 +13,29 @@
 }
 
 @media screen and (max-width:480px) {
-    .google-map{
-        padding-bottom: 50%;
+    .google-map {
+        padding-bottom: 12%;
     }
+
     .google-map iframe {
-        width: 674px;
-        height: 638px;
+        width: 394px;
+        height: 338px;
         margin-top: -300px;
     }
-  
+
+}
+
+
+@media screen and (min-width:481px) and (max-width:991px) {
+
+    .google-map {
+        padding-bottom: 45%;
+
+    }
+
+    .google-map iframe {
+        width: 911px;
+        height: 400px;
+    }
+
 }

@@ -15,7 +15,7 @@ box-shadow: 0 11px 18px -8px #0d6efd;
 
 @media only screen and (max-width:480px) {
   .stick {
-    width: 673px;
+    width: 390px;
     overflow-x: hidden;
     position: static;
 
@@ -23,14 +23,27 @@ box-shadow: 0 11px 18px -8px #0d6efd;
   }
 
   .d-width {
-    width: 400px;
+    width: 300px;
 
   }
 
   .slider {
-    font-size: 40px;
+    font-size: 30px;
     border: 1px solid grey;
     padding: 10px;
     border-radius: 5px;
   }
+}
+
+@media screen and (min-width:481px) and (max-width:991px) {
+.slider{
+  font-size: 45px;
+}
+.stick{
+  position: static;
+}
+
+.d-width{
+  width: 500px;
+}
 }

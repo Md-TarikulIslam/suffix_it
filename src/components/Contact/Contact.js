@@ -4,12 +4,9 @@ import React from "react";
 import Map from "../Map/Map";
 import "./Contact.css";
 
-
-
 const Contact = () => {
- 
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <div>
         <div className="contact-flex">
           <div>
@@ -19,7 +16,7 @@ const Contact = () => {
               make what they want.
             </p>
           </div>
-          <div>
+          <div className="person-img">
             <img
               className="flower"
               src="https://i.ibb.co/t2FZHVv/001.png"
@@ -54,31 +51,41 @@ const Contact = () => {
             Cha-70,70/A, Rupayan Millennium Square (9A), Progoti Sharoni, North
             Badda, Gulshan, Dhaka-1212, Bangladesh.
           </p>
-          
-          <p className="f-phone"><FontAwesomeIcon className="mr-2" icon={faPhone} />+88 01958 424000</p>
+
+          <p className="f-phone">
+            <FontAwesomeIcon className="mr-2" icon={faPhone} />
+            +88 01958 424000
+          </p>
           <hr className="line" />
           <p className="f-info">For more information</p>
-          <p className="f-mail"><FontAwesomeIcon className="mr-2" icon={faEnvelope} />info@suffixit.com</p>
+          <p className="f-mail">
+            <FontAwesomeIcon className="mr-2" icon={faEnvelope} />
+            info@suffixit.com
+          </p>
         </div>
 
         <div className="input-flex">
-            <div className="en-flex">
+          <div className="en-flex">
             <input className="fname" type="text" placeholder="Name" />
             <input className="fmail" type="text" placeholder="Email" />
-            </div>
-           
-            <input className="fsub" type="text" placeholder="Subject" />
-            <input className="fphone" type="text" placeholder="Phone No." />
-            <textarea className="ftext" name="" id="" cols="10" rows="8" placeholder="Your Comment"></textarea>
-            <button className="s-btn">SEND MESSAGE</button>
+          </div>
+
+          <input className="fsub" type="text" placeholder="Subject" />
+          <input className="fphone" type="text" placeholder="Phone No." />
+          <textarea
+            className="ftext"
+            name=""
+            id=""
+            cols="10"
+            rows="8"
+            placeholder="Your Comment"
+          ></textarea>
+          <button className="s-btn">SEND MESSAGE</button>
         </div>
       </div>
-    <Map></Map>
+      <Map></Map>
     </div>
   );
 };
-
-
-
 
 export default Contact;

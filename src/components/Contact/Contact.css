@@ -229,15 +229,23 @@
 
     .c-head {
         position: relative;
-        top: 400px;
-        font-size: 60px;
+        top: 300px;
+        font-size: 30px;
+        text-align: left;
+    }
+    .ball2{
+       bottom: 200px;
+       left: 280px;
+    }
+    .ball3, .ball4, .ball5{
+        display: none;
     }
 
     .c-p {
         position: relative;
-        top: 400px;
-        font-size: 30px;
-        width: 600px;
+        top: 300px;
+        font-size: 20px;
+        width: 300px;
         text-align: left;
     }
     .form-flex{
@@ -250,21 +258,66 @@
         width: 630px;
     }
     .f-loc, .f-info{
-        font-size: 30px;
+        font-size: 25px;
+    }
+    .f-loc{
+        margin-top: 200px;
     }
     .f-address{
-        font-size: 25px;
-        width: 700px;
-        line-height: 50px;
+        font-size: 15px;
+        width: 300px;
+        line-height: 30px;
     }
     .f-phone, .f-mail{
-        font-size: 25px;
+        font-size: 20px;
         margin-top: 20px;
+    }
+    .fname, .fmail{
+        width: 170px;
+    }
+    .fsub, .fphone{
+        width: 360px;
     }
     .f-mail{
         margin-bottom: 150px;
     }
     .line{
-        width: 635px;
+        width: 350px;
     }
+
+    .flower{
+        width: 100px;
+        right: 20px;
+
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:991px) {
+.c-head, .c-p{
+   position: relative;
+   top: 400px;
+}
+
+.contact-flex{
+    flex-direction: column;
+}
+    .ball2{
+    bottom: 700px;
+}
+.ball3, .ball4, .ball5{
+    display: none;
+}
+.form-flex{
+    padding: 0 50px;
+}
+.f-address{
+    width: 250px;
+}
+.fname, .fmail{
+    width: 250px;
+}
+.fsub, .fphone{
+    width: 520px;
+}
+
 }

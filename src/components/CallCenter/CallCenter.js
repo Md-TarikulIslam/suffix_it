@@ -7,6 +7,7 @@ import "./CallCenter.css";
 const CallCenter = () => {
   return (
     <div>
+      <div className="margin-top">
       <div className="call-div">
         <h1 className="text-slate-600  l-gap text-3xl our font-bold mb-5">
           Our{" "}
@@ -20,6 +21,7 @@ const CallCenter = () => {
           have to do is tell.
         </p>
       </div>
+      
 
      <div className="center-grid">
      <div className="center-card">
@@ -38,6 +40,7 @@ const CallCenter = () => {
         <p className="call-p">Group of smart and charismatic agents are always online to provide live chat services.</p>
       </div>
       <button className="more-info-btn">More Info <FontAwesomeIcon icon={faArrowRight}/> </button>
+     </div>
      </div>
      <Services></Services>
     </div>
