@@ -10,6 +10,7 @@ import PayrollSystem from "./components/ProductsFolder/PayrollSystem/PayrollSyst
 import ECommerce from "./components/ProductsFolder/ECommerce/ECommerce";
 import HotelBook from "./components/ProductsFolder/HotelBook/HotelBook";
 import InterConnectBill from "./components/ProductsFolder/InterConnectBill/InterConnectBill";
+import RupantorERP from "./components/ProductsFolder/RupantorERP/RupantorERP";
 
 function App() {
   const router = createBrowserRouter([
@@ -49,6 +50,10 @@ function App() {
         {
           path: "/interconnect",
           element: <InterConnectBill></InterConnectBill>
+        },
+        {
+          path: "/rupantor-erp",
+          element: <RupantorERP></RupantorERP>
         },
       ],
     },
