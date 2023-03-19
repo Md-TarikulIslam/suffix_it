@@ -20,7 +20,9 @@ const products = [
   {
     name: "Payroll System",
 
-    href: "#",
+    href: "/payroll",
+
+    
     icon: CreditCardIcon,
   },
   {
@@ -32,7 +34,7 @@ const products = [
   {
     name: "E-Commerce",
 
-    href: "#",
+    href: "/e-commerce",
     icon: ShoppingCartIcon,
   },
   {
@@ -210,13 +212,13 @@ export default function NavBar() {
                           />
                         </div>
                         <div className="flex-auto ">
-                          <a
-                            href={item.href}
+                          <Link
+                            to={item.href}
                             className="block font-semibold  text-gray-900"
                           >
                             {item.name}
                             <span className="absolute inset-0" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>

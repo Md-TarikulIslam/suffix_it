@@ -5,11 +5,10 @@
 
 .google-map iframe {
     height: 500px;
-    width: 1526px;
+    width: 1700px;
     left: 0;
     top: 0;
     position: absolute;
-    /* margin-top: -200px; */
 }
 
 @media screen and (max-width:480px) {

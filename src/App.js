@@ -6,6 +6,7 @@ import Main from "./components/layout/Main";
 import ScrollToTop from "react-scroll-to-top";
 import Career from "./components/Career/Career";
 import Contact from "./components/Contact/Contact";
+import PayrollSystem from "./components/ProductsFolder/PayrollSystem/PayrollSystem";
 
 function App() {
   const router = createBrowserRouter([
@@ -29,6 +30,10 @@ function App() {
         {
           path: "/contact",
           element: <Contact></Contact>,
+        },
+        {
+          path: "/payroll",
+          element: <PayrollSystem></PayrollSystem>
         },
       ],
     },
