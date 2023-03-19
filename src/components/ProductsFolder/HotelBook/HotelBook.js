@@ -2,7 +2,7 @@ import React from "react";
 import "./HotelBook.css";
 const HotelBook = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <div className="payroll-flex">
         <div>
           <h1 className="hr-text">Hotel Booking System</h1>

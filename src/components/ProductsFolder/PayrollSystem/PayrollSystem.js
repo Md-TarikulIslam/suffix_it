@@ -3,7 +3,7 @@ import "./PayrollSystem.css";
 
 const PayrollSystem = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <div className="payroll-flex">
         <div>
           <h1 className="hr-text">HR & Payroll Modules</h1>

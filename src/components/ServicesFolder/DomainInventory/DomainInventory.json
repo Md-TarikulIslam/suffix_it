@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "type": "BASIC",
+        "price": "5",
+        "validation": "/MO",
+        "ram": "1 GB RAM",
+        "cpu": "1 CPU CORE",
+        "storage": "25 GB STORAGE",
+        "transfer": "1 TB TRANSFER",
+        "net-in": "40 GBPS NETWORK IN",
+        "net-out": "1000 MBPS NETWORK OUT",
+        "btn": "ORDER NOW"
+    },
+    {
+        "id": 2,
+        "type": "PRO",
+        "price": "10",
+        "validation": "/MO",
+        "ram": "2 GB RAM",
+        "cpu": "1 CPU CORE",
+        "storage": "80 GB STORAGE",
+        "transfer": "4 TB TRANSFER",
+        "net-in": "40 GBPS NETWORK IN",
+        "net-out": "4000 MBPS NETWORK OUT",
+        "btn": "ORDER NOW"
+    },
+    {
+        "id": 3,
+        "type": "PREMIUM",
+        "price": "20",
+        "validation": "/MO",
+        "ram": "4 GB RAM",
+        "cpu": "2 CPU CORE",
+        "storage": "80 GB STORAGE",
+        "transfer": "4 TB TRANSFER",
+        "net-in": "40 GBPS NETWORK IN",
+        "net-out": "4000 MBPS NETWORK OUT",
+        "btn": "ORDER NOW"
+    }
+]

@@ -66,7 +66,7 @@ const products = [
 const services = [
   {
     name: "Domain & Hosting",
-    href: "#",
+    href: "/domain_hosting",
     icon: CreditCardIcon,
   },
   {
@@ -265,13 +265,13 @@ export default function NavBar() {
                           />
                         </div>
                         <div className="flex-auto ">
-                          <a
-                            href={service.href}
+                          <Link
+                            to={service.href}
                             className="block font-semibold  text-gray-900"
                           >
                             {service.name}
                             <span className="absolute inset-0" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -405,12 +405,14 @@ export default function NavBar() {
                         {[...services].map((service) => (
                           <Disclosure.Button
                             key={service.name}
-                            as="a"
-                            href={service.href}
+                            as="a">
+                              <Link
+                            to={service.href}
                             className="block flex items-center	 rounded-lg py-2 pl-6 pr-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                           >
                             <service.icon className="h-4 w-4 mr-4" />
                             {service.name}
+                            </Link>
                           </Disclosure.Button>
                         ))}
                       </Disclosure.Panel>

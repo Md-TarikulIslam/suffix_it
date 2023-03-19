@@ -1,0 +1,134 @@
+.domain-text {
+    color: white;
+    font-size: 55px;
+    font-weight: 900;
+    position: relative;
+    bottom: 300px;
+}
+
+.domain-img {
+    width: 1700px;
+    height: 500px;
+}
+
+.breadcrumb {
+    position: relative;
+    bottom: 300px;
+    background-color: transparent;
+    font-size: 25px;
+    left: 670px;
+}
+
+.domain-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 80px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+
+}
+
+.single-domain-card {
+
+    max-width: 380px;
+    height: 600px;
+    background-color: white;
+    margin: 20px 10px;
+    text-align: center;
+    box-shadow: 10px 10px 40px #ebebeb;
+    border-radius: 20px;
+}
+
+.domain-data {
+    background-color: green;
+    /* width: 0px; */
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 10px 10px 40px #f5f5f5;
+    padding: 15px 75px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #d3eaff;
+
+}
+
+.domain-blue {
+    color: #0fbcf9;
+    font-size: 20px;
+}
+
+.price {
+    color: #0fbcf9;
+    font-size: 60px;
+}
+
+.valid {
+    color: #0fbcf9;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.all-data {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.domain-btn {
+    border: 2px solid #0fbcf9;
+    color: #0fbcf9;
+    padding: 18px 40px;
+    border-radius: 8px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.domain-btn:hover {
+    background-color: #0fbcf9;
+    color: white;
+}
+
+@media screen and (max-width:480px) {
+    .domain-card {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+        margin-left: 15px;
+    }
+
+    .domain-img {
+        width: 395px;
+    }
+
+    .domain-text {
+        font-size: 30px;
+
+    }
+
+    .breadcrumb {
+        bottom: 300px;
+        left: 80px;
+        font-size: 15px;
+    }
+
+    .single-domain-card {
+        width: 350px;
+    }
+
+    .domain-data {
+        padding: 10px 20px;
+    }
+
+}
+
+@media screen and (min-width:481px) and (max-width:991px) {
+    .breadcrumb {
+        left: 300px;
+    }
+
+    .domain-card {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0;
+    }
+}

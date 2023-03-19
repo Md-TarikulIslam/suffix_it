@@ -3,7 +3,7 @@ import './ECommerce.css'
 
 const ECommerce = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <div className="payroll-flex">
         <div>
           <h1 className="hr-text">E-Commerce Solutions</h1>
