@@ -1,0 +1,22 @@
+.bill-text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1350px;
+}
+
+@media screen and (max-width:480px){
+    .bill-text{
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .a1ps{
+        margin: 0;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:991px){
+    .bill-text{
+        width: 600px;
+    }
+}

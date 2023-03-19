@@ -9,6 +9,7 @@ import Contact from "./components/Contact/Contact";
 import PayrollSystem from "./components/ProductsFolder/PayrollSystem/PayrollSystem";
 import ECommerce from "./components/ProductsFolder/ECommerce/ECommerce";
 import HotelBook from "./components/ProductsFolder/HotelBook/HotelBook";
+import InterConnectBill from "./components/ProductsFolder/InterConnectBill/InterConnectBill";
 
 function App() {
   const router = createBrowserRouter([
@@ -44,6 +45,10 @@ function App() {
         {
           path: "/hotel-booking-system",
           element: <HotelBook></HotelBook>
+        },
+        {
+          path: "/interconnect",
+          element: <InterConnectBill></InterConnectBill>
         },
       ],
     },
