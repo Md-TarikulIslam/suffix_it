@@ -58,7 +58,7 @@ const products = [
   },
   {
     name: "Rupantor Inventory",
-    href: "#",
+    href: "/rupantor-inventory",
     icon: ArrowPathIcon,
   },
 ];

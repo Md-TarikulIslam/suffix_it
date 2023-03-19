@@ -11,6 +11,7 @@ import ECommerce from "./components/ProductsFolder/ECommerce/ECommerce";
 import HotelBook from "./components/ProductsFolder/HotelBook/HotelBook";
 import InterConnectBill from "./components/ProductsFolder/InterConnectBill/InterConnectBill";
 import RupantorERP from "./components/ProductsFolder/RupantorERP/RupantorERP";
+import RupantorInventory from "./components/ProductsFolder/RupantorInventory/RupantorInventory";
 
 function App() {
   const router = createBrowserRouter([
@@ -54,6 +55,10 @@ function App() {
         {
           path: "/rupantor-erp",
           element: <RupantorERP></RupantorERP>
+        },
+        {
+          path: "rupantor-inventory",
+          element: <RupantorInventory></RupantorInventory>
         },
       ],
     },
