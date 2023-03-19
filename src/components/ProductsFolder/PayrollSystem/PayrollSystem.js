@@ -20,14 +20,14 @@ const PayrollSystem = () => {
       </div>
 
       <div className="payroll-mod-flex">
-        <div>
+        <div data-aos="fade-right">
           <img
             className="payroll-img"
             src="https://suffixit.com/static/media/illustration-payroll.5b362182.svg"
             alt=""
           />
         </div>
-        <div>
+        <div data-aos="fade-left">
           <h1 className="payroll-text">HR & Payroll Modules</h1>
           <p className="payroll-p">
             The ‘HR & Payroll’ module is an extremely flexible and effective
@@ -43,7 +43,7 @@ const PayrollSystem = () => {
       </div>
 
       <div className="payroll-mod-flex">
-        <div>
+        <div data-aos="fade-right">
           <h1 className="payroll-text">
             The ‘HR & Payroll’ module integrates to
           </h1>
@@ -53,7 +53,7 @@ const PayrollSystem = () => {
             <li>General Ledger for expense distribution</li>
           </ul>
         </div>
-        <div>
+        <div data-aos="fade-left">
           <img
             className="payroll-img"
             src="https://suffixit.com/static/media/Sponsor-bro.fe1a6b99.svg"
@@ -63,14 +63,14 @@ const PayrollSystem = () => {
       </div>
 
       <div className="payroll-mod-flex">
-        <div>
+        <div data-aos="fade-right">
           <img
             className="payroll-img"
             src="https://suffixit.com/static/media/Audit-rafiki.58a65c7d.svg"
             alt=""
           />
         </div>
-        <div>
+        <div data-aos="fade-left">
           <h1 className="payroll-text">Benefits of HR & Payroll</h1>
           <ul class="list-disc list-text">
             <li>Benefits of HR & Payroll</li>
@@ -91,7 +91,7 @@ const PayrollSystem = () => {
       </div>
 
       <div className="payroll-mod-flex">
-        <div>
+        <div data-aos="fade-right">
           <h1 className="payroll-text">Features of HR & Payroll</h1>
           <ul class="list-disc list-text">
             <li>Multiple branch control</li>
@@ -104,7 +104,7 @@ const PayrollSystem = () => {
           </ul>
         </div>
 
-        <div>
+        <div data-aos="fade-left">
           <img
             className="payroll-img"
             src="https://suffixit.com/static/media/Credit%20card-rafiki.05a08610.svg"
@@ -119,7 +119,7 @@ const PayrollSystem = () => {
         </h1>
 
         <div className="payroll-mod-flex info-flexing">
-          <div>
+          <div data-aos="fade-right">
             <h1 className="payroll-text">Time & Attendance</h1>
             <p className="payroll-p">
               Employee Tracker Plus improves payroll accuracy by automating the
@@ -130,7 +130,7 @@ const PayrollSystem = () => {
               accurate labor cost data.
             </p>
           </div>
-          <div>
+          <div data-aos="fade-left">
             <h1 className="payroll-text">How it works?</h1>
             <p className="payroll-p">
               Employee Tracker Plus, designed to help control labor costs and
@@ -142,14 +142,14 @@ const PayrollSystem = () => {
         </div>
 
         <div className="payroll-mod-flex">
-          <div>
+          <div data-aos="fade-right">
             <img
               className="payroll-img"
               src="https://suffixit.com/static/media/Time%20management-rafiki.9ce8fbde.svg"
               alt=""
             />
           </div>
-          <div>
+          <div data-aos="fade-left">
             <h1 className="payroll-text">Features</h1>
             <ul class="list-disc list-text">
               <li>Advanced scheduling</li>
@@ -163,7 +163,7 @@ const PayrollSystem = () => {
 
         <div>
           <img
-          className="live-demo-img"
+            className="live-demo-img"
             src="https://suffixit.com/static/media/Telecommuting-rafiki.6436ded2.svg"
             alt=""
           />

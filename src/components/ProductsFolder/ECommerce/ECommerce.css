@@ -1,0 +1,18 @@
+.more-text-size{
+    width: 600px;
+    text-align: justify;
+}
+
+@media screen and (max-width:480px) {
+    .more-text-size{
+        width: 300px;
+        padding-right: 40px;
+    }
+}
+
+
+@media screen and (min-width:481px) and (max-width:991px){
+    .more-flex{
+        flex-direction: column;
+    }
+}

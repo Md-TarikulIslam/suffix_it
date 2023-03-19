@@ -22,7 +22,6 @@ const products = [
 
     href: "/payroll",
 
-    
     icon: CreditCardIcon,
   },
   {
@@ -372,18 +371,24 @@ export default function NavBar() {
 
                       <Disclosure.Panel className="mt-2 space-y-2">
                         {[...products].map((item) => (
-                          <Disclosure.Button
-                            key={item.name}
-                            as="a"
-                            href={item.href}
-                            className="block flex items-center rounded-lg py-2 pl-6 pr-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                          >
-                            <item.icon className="h-4 w-4 mr-4" />
-                            {item.name}
+                          <Disclosure.Button key={item.name} as="a">
+                            <Link
+                              to={item?.href}
+                              className="block flex items-center rounded-lg py-2 pl-6 pr-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                            >
+                              <item.icon className="h-4 w-4 mr-4" />
+                              {item.name}
+                            </Link>
                           </Disclosure.Button>
                         ))}
                       </Disclosure.Panel>
+                    </>
+                  )}
+                </Disclosure>
 
+                <Disclosure as="div" className="-mx-3">
+                  {({ open }) => (
+                    <>
                       <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
                         Services
                         <ChevronDownIcon
@@ -394,6 +399,7 @@ export default function NavBar() {
                           aria-hidden="true"
                         />
                       </Disclosure.Button>
+
 
                       <Disclosure.Panel className="mt-2 space-y-2">
                         {[...services].map((service) => (
@@ -411,6 +417,7 @@ export default function NavBar() {
                     </>
                   )}
                 </Disclosure>
+
                 <Link
                   to="/career"
                   className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
