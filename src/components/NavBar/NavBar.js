@@ -43,7 +43,7 @@ const products = [
   },
   {
     name: "Hotel Booking System",
-    href: "#",
+    href: "/hotel-booking-system",
     icon: FaHotel,
   },
   {

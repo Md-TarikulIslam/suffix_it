@@ -8,6 +8,7 @@ import Career from "./components/Career/Career";
 import Contact from "./components/Contact/Contact";
 import PayrollSystem from "./components/ProductsFolder/PayrollSystem/PayrollSystem";
 import ECommerce from "./components/ProductsFolder/ECommerce/ECommerce";
+import HotelBook from "./components/ProductsFolder/HotelBook/HotelBook";
 
 function App() {
   const router = createBrowserRouter([
@@ -39,6 +40,10 @@ function App() {
         {
           path: "/e-commerce",
           element: <ECommerce></ECommerce>
+        },
+        {
+          path: "/hotel-booking-system",
+          element: <HotelBook></HotelBook>
         },
       ],
     },
