@@ -11,12 +11,18 @@
     height: 500px;
 }
 
+.bread {
+    width: 400px;
+}
+
 .breadcrumb {
     position: relative;
     bottom: 300px;
     background-color: transparent;
     font-size: 25px;
     left: 670px;
+    width: 500px;
+    margin: 0 !important;
 }
 
 .domain-card {
@@ -97,8 +103,16 @@
         margin-left: 15px;
     }
 
+    .bread {
+        width: 100px;
+    }
+
     .domain-img {
         width: 395px;
+    }
+
+    .breadcrumb {
+        width: 250px;
     }
 
     .domain-text {
@@ -110,6 +124,7 @@
         bottom: 300px;
         left: 80px;
         font-size: 15px;
+
     }
 
     .single-domain-card {

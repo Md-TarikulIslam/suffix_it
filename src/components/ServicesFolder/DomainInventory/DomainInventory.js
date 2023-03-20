@@ -15,32 +15,37 @@ const DomainInventory = () => {
       />
       <h1 className="domain-text">Domain & Hosting</h1>
 
-      <div class="bg-white p-4 breadcrumb flex items-center flex-wrap">
-        <ul class="flex items-center">
-          <li class="inline-flex items-center">
-            <Link to="/" className="text-white hover:text-blue-500">
-              Home
-            </Link>
+      <div className="bread">
+        <div class="bg-white p-4 breadcrumb m-0 items-center flex-wrap">
+          <ul class="flex items-center">
+            <li class="inline-flex items-center">
+              <Link to="/" className="text-white hover:text-blue-500">
+                Home
+              </Link>
 
-            <svg
-              class="w-5 h-auto fill-current mx-2 text-white"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-            >
-              <path d="M0 0h24v24H0V0z" fill="none" />
-              <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6-6-6z" />
-            </svg>
-          </li>
+              <svg
+                class="w-5 h-auto fill-current mx-2 text-white"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path d="M0 0h24v24H0V0z" fill="none" />
+                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6-6-6z" />
+              </svg>
+            </li>
 
-          <li class="inline-flex items-center">
-            <span className="text-white hover:text-blue-500">
-              Domain & Hosting
-            </span>
-          </li>
-        </ul>
+            <li class="inline-flex items-center mr-2">
+              <a href="#host">
+                {" "}
+                <span className="text-white hover:text-blue-500">
+                  Domain & Hosting
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <div className="domain-card">
+      <div id="host" data-aos="fade-up" className="domain-card">
         {domain.map((data) => (
           <div>
             <div className="single-domain-card">
