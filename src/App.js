@@ -15,6 +15,7 @@ import RupantorInventory from "./components/ProductsFolder/RupantorInventory/Rup
 import DomainInventory from "./components/ServicesFolder/DomainInventory/DomainInventory";
 import ERP from "./components/ServicesFolder/ERP/ERP";
 import Learning from "./components/ServicesFolder/Learning/Learning";
+import CustomApp from "./components/ServicesFolder/CustomApp/CustomApp";
 
 function App() {
   const router = createBrowserRouter([
@@ -74,6 +75,10 @@ function App() {
         {
           path: "/learning",
           element: <Learning></Learning>
+        },
+        {
+          path: "/custom-app",
+          element: <CustomApp></CustomApp>
         },
       ],
     },

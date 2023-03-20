@@ -4,7 +4,7 @@ import "./Learning.css";
 
 const Learning = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <img
         className="domain-img brightness-50"
         src="https://suffixit.com/static/media/eLearning.0c6d32a8.jpg"
@@ -32,12 +32,12 @@ const Learning = () => {
           </li>
 
           <li class="inline-flex items-center">
-            <a href="#learn">
+          
               {" "}
               <span className="text-white hover:text-blue-500">
                 Learning Management
               </span>
-            </a>
+          
           </li>
         </ul>
       </div>

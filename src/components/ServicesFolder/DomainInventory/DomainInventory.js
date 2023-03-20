@@ -34,12 +34,11 @@ const DomainInventory = () => {
             </li>
 
             <li class="inline-flex items-center mr-2">
-              <a href="#host">
-                {" "}
+          
                 <span className="text-white hover:text-blue-500">
                   Domain & Hosting
                 </span>
-              </a>
+             
             </li>
           </ul>
         </div>

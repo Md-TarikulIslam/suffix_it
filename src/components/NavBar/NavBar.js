@@ -101,7 +101,7 @@ const services = [
   },
   {
     name: "Custom Applications",
-    href: "#",
+    href: "/custom-app",
     icon: CreditCardIcon,
     // icon: faGears,
   },
@@ -112,7 +112,7 @@ const services = [
     // icon: faMessage,
   },
   {
-    name: "Payroll System",
+    name: "Automation & IoT",
     href: "#",
     icon: CreditCardIcon,
   },

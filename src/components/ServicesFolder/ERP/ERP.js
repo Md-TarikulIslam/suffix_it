@@ -39,12 +39,11 @@ const ERP = () => {
           </li>
 
           <li class="inline-flex items-center">
-            <a href="#erp">
-              {" "}
+       
               <span className="text-white hover:text-blue-500">
                 ERP System & Consulting
               </span>
-            </a>
+           
           </li>
         </ul>
       </div>
