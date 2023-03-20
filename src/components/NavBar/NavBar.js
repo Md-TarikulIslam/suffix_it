@@ -76,7 +76,7 @@ const services = [
   },
   {
     name: "ERP Consulting",
-    href: "#",
+    href: "/erp",
     icon: CreditCardIcon,
   },
   {

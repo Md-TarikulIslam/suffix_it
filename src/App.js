@@ -13,6 +13,7 @@ import InterConnectBill from "./components/ProductsFolder/InterConnectBill/Inter
 import RupantorERP from "./components/ProductsFolder/RupantorERP/RupantorERP";
 import RupantorInventory from "./components/ProductsFolder/RupantorInventory/RupantorInventory";
 import DomainInventory from "./components/ServicesFolder/DomainInventory/DomainInventory";
+import ERP from "./components/ServicesFolder/ERP/ERP";
 
 function App() {
   const router = createBrowserRouter([
@@ -64,6 +65,10 @@ function App() {
         {
           path: "/domain_hosting",
           element: <DomainInventory></DomainInventory>
+        },
+        {
+          path: "/erp",
+          element: <ERP></ERP>
         },
       ],
     },

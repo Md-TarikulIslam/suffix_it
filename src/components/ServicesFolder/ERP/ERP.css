@@ -1,0 +1,55 @@
+.key-text{
+font-weight: 600;
+font-size: 40px;
+}
+.blue-feature{
+color: rgb(96, 157, 206);
+}
+.label-text{
+    color: rgb(96, 157, 206);
+    font-size: 30px;
+    text-align: left;
+
+}
+.erp-p{
+    margin-top: 20px;
+    width: 680px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    height: 120px;
+
+}
+.erp-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 100px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width:480px) {
+    .erp-grid{
+        grid-template-columns: repeat(1,1fr);
+        padding: 10px;
+        margin: 0;
+    }
+    .erp-p{
+        width: 350px;
+        margin-bottom: 100px;
+    }
+    
+}
+
+@media screen and (min-width:481px) and (max-width:991px) {
+.erp-grid{
+    padding: 50px 20px;
+    margin-left: 30px;
+}
+.erp-p{
+    width: 400px;
+    margin-bottom: 100px;
+}
+
+
+}
